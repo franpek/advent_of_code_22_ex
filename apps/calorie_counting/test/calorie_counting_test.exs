@@ -1,8 +1,8 @@
-defmodule CalorieCountingTest do
+defmodule CALORIE_COUNTING do
   use ExUnit.Case
-  doctest CalorieCounting
+  doctest CALORIE_COUNTING
 
   test "greets the world" do
-    assert CalorieCounting.hello() == :world
+    assert CALORIE_COUNTING.hello() == :world
   end
 end

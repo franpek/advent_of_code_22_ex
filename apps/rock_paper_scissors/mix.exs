@@ -1,9 +1,9 @@
-defmodule CALORIE_COUNTING.MixProject do
+defmodule ROCK_PAPER_SCISSORS.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :calorie_counting,
+      app: :rock_paper_scissors,
       version: "0.1.0",
       build_path: "../../_build",
       config_path: "../../config/config.exs",
