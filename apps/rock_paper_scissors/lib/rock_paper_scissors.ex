@@ -1,6 +1,6 @@
-defmodule ROCK_PAPER_SCISSORS do
+defmodule RockPaperScissors do
   @moduledoc """
-  Documentation for `ROCK_PAPER_SCISSORS`.
+  Documentation for `RockPaperScissors`.
   """
 
   @doc """
@@ -8,9 +8,9 @@ defmodule ROCK_PAPER_SCISSORS do
 
   ## Examples
 
-      iex> ROCK_PAPER_SCISSORS.calculate_score("./apps/rock_paper_scissors/files/example.txt")
+      iex> RockPaperScissors.calculate_score("./apps/rock_paper_scissors/files/example.txt")
       15
-      iex> ROCK_PAPER_SCISSORS.calculate_score("./apps/rock_paper_scissors/files/sample.txt")
+      iex> RockPaperScissors.calculate_score("./apps/rock_paper_scissors/files/sample.txt")
       10624
 
   """
@@ -35,7 +35,7 @@ defmodule ROCK_PAPER_SCISSORS do
   defp process_round(["C", "Y"]), do: 2 + 0
   defp process_round(["C", "Z"]), do: 3 + 3
 
-    @doc """
+  @doc """
   Calculate real score.
 
   ## Examples
@@ -66,5 +66,4 @@ defmodule ROCK_PAPER_SCISSORS do
   defp process_real_round(["C", "X"]), do: 2 + 0
   defp process_real_round(["C", "Y"]), do: 3 + 3
   defp process_real_round(["C", "Z"]), do: 1 + 6
-
 end

@@ -1,6 +1,6 @@
-defmodule CALORIE_COUNTING do
+defmodule CalorieCounting do
   @moduledoc """
-  Documentation for `CALORIE_COUNTING`.
+  Documentation for `CalorieCounting`.
   """
 
   @doc """
@@ -8,14 +8,14 @@ defmodule CALORIE_COUNTING do
 
   ## Examples
 
-      iex> CALORIE_COUNTING.count_calories("./apps/calorie_counting/files/example.txt")
+      iex> CalorieCounting.count_calories("./apps/calorie_counting/files/example.txt")
       2400
-      iex> CALORIE_COUNTING.count_calories("./apps/calorie_counting/files/example.txt")
+      iex> CalorieCounting.count_calories("./apps/calorie_counting/files/example.txt")
       66306
 
-      iex> CALORIE_COUNTING.count_calories("./apps/calorie_counting/files/sample.txt", 3)
+      iex> CalorieCounting.count_calories("./apps/calorie_counting/files/sample.txt", 3)
       4500
-      iex> CALORIE_COUNTING.count_calories("./apps/calorie_counting/files/sample.txt", 3)
+      iex> CalorieCounting.count_calories("./apps/calorie_counting/files/sample.txt", 3)
       195292
 
   """

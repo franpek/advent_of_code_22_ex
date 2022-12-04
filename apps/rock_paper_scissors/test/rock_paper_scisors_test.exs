@@ -1,8 +1,8 @@
-defmodule ROCK_PAPER_SCISSORSTest do
+defmodule RockPaperScissorsTest do
   use ExUnit.Case
-  doctest ROCK_PAPER_SCISSORS
+  doctest RockPaperScissors
 
   test "greets the world" do
-    assert ROCK_PAPER_SCISSORS.hello() == :world
+    assert RockPaperScissors.hello() == :world
   end
 end
